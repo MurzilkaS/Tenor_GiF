@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.search {
+    display: flex;
+}
+
+#gifs{
+    width: 90%;
+    padding: 10px;
+}
+
+#btn{
+    padding: 10px;
+}
+.pictures{
+    width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+}
+img{
+    width: 100%;
+    height: auto;   
+}
+
+#result{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
